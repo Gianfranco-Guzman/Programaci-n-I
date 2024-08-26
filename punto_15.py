@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Mis variables globales:
 num= int(input("Ingrese un numero entero: "))
 

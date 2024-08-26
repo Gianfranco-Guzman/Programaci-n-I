@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #14) Codifique un programa de consola que permita realizar las siguientes
 #acciones:
 #Generar un número aleatorio entre 0 y 100, para ello use la siguiente función: random.randint(0, 100)

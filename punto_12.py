@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #12) Crea una aplicación que nos pida un día de la semana y que nos diga si es un dia
 #laboral o no (siendo sábado y domingo no laborales). Usa un switch para ello. Valida
 #que el número ingresado sea un valor entre 1 y 7, caso contrario solicite el valor

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #11) Escribe una aplicación con una variable que contenga una contraseña cualquiera.
 #Después se te pedirá que introduzcas la contraseña, con 3 intentos. Cuando aciertes ya
 #no pedirá más la contraseña y mostrara un mensaje diciendo “Acceso Correcto”.
