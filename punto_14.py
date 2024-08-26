@@ -6,7 +6,7 @@
 #menor al número aleatorio buscado. Una vez encontrado el número muestre la
 #cantidad de intentos necesarios para lograrlo. 
 import random
-numAzar= random.randint(1,10)
+numAzar= random.randint(0,10)
 num=0
 intentos= 0
 while num != numAzar:

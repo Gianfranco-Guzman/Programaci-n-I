@@ -6,15 +6,16 @@
 #ha bloqueado después de los 3 intentos”. Fin programa.       
 i= 0
 claveAzar= 1234
-#clave=int(input("Ingrese la clave de usuario: "))
 
 while True:
     clave=int(input("Ingrese la clave de usuario: "))
     i= i + 1
     if clave == claveAzar:
         print("Acceso Correcto")
+        print("Intentos realizados:",i)
         break
     elif i==3:
+       print("Intentos fallidos:",i)
        print("El acceso ha sido bloqueado")
        break
     

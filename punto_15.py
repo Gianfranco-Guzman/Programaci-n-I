@@ -2,6 +2,7 @@
 num= int(input("Ingrese un numero entero: "))
 
 num_str= str(num) #str lo convierte a cadena
+ultimo_digito= int(num_str[-1])
 suma= 0
 for caracter in num_str:
     suma += int(caracter)
