@@ -26,6 +26,7 @@ else:
     print("El numero: ",num,"No es divisible por 3")
 #--------------------------------------------------------
 #Criterio divisibilidad por 5:
+
 ultimo_digito= int(num_str[-1])
 
 def div_por_5(ultimo_digito):
