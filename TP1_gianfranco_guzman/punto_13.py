@@ -6,6 +6,11 @@
 num= int(input("Ingrese un numero mayor que cero: "))
 i= 1
 div= 0
+while True:
+    if num < 0: 
+        num= int(input("Error: ingrese un numero mayor a cero: "))
+    else:
+       break
 for i in range(1,num+1):
     if num % i == 0:
         div= div + 1

@@ -3,8 +3,9 @@
 #que el número ingresado sea un valor entre 1 y 7, caso contrario solicite el valor
 #nuevamente. 
 
+dia=int(input("Ingrese un dia de la semana: "))
 while True:
-    dia=int(input("Ingrese un dia de la semana: "))
+    
     if dia > 0 and dia < 6:
         print("Es un dia LABORABLE")
         break
