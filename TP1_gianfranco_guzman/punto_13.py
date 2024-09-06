@@ -14,8 +14,10 @@ while True:
 for i in range(1,num+1):
     if num % i == 0:
         div= div + 1
+        if(div > 2):
+            break
 
-if div == 2:
+if div == 2 or num == 1:
     print(num,"Es un numero primo")
 else: 
     print(num,"No es un numero primo")

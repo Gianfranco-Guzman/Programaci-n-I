@@ -10,14 +10,12 @@ numAzar= random.randint(0,100)
 num=0
 intentos= 0
 while num != numAzar:
-    num = int(input("Ingrese un numero entre 0 y 10: "))
+    num = int(input("Ingrese un numero entre 0 y 100: "))
+    intentos= intentos + 1
     if num > numAzar:
         print("El numero buscado es menor que: ",num)  
-        intentos= intentos + 1
     elif num < numAzar:
          print("El numero buscado es mayor que: ",num)
-         intentos = intentos + 1
     else:
         print("CORRECTO el numero era: ",numAzar)
-        intentos= intentos + 1
         print("Intentos realizados: ",intentos)

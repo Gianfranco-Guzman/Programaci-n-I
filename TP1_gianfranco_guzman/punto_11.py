@@ -5,10 +5,10 @@
 #intentos). Si no acierta en ninguno de los 3 intentos, mostrar el mensaje “El acceso se
 #ha bloqueado después de los 3 intentos”. Fin programa.       
 i= 0
-claveAzar= 1234
+claveAzar= "1234"
 
 while True:
-    clave=int(input("Ingrese la clave de usuario: "))
+    clave=(input("Ingrese la clave de usuario: "))
     i= i + 1
     if clave == claveAzar:
         print("Acceso Correcto")

@@ -5,12 +5,12 @@
 
 dia=int(input("Ingrese un dia de la semana: "))
 while True:
-    
-    if dia > 0 and dia < 6:
+    if dia <= 0 or dia > 7:
+        dia = int(input("Valor no válido, vuelva a intentar: "))
+        pass
+    elif dia < 6:
         print("Es un dia LABORABLE")
         break
-    elif dia < 8:
+    else:
         print("Es un dia NO LABORABLE")
         break
-    else:
-        dia=int(input("Valor no válido, vuelva a intentar: "))
